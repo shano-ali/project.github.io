@@ -1,0 +1,102 @@
+.navbar-brand  img{
+height: 90px;
+}
+.img-sec img{
+    width: 550px;
+}
+   .col img{
+    width: 600px;
+   }
+   .card img{
+     width: 309px;
+   }
+   footer{
+    background: #30e7f1;
+    padding-top: 50px;
+    color: black;
+}
+.row-footer{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.footer-content{
+    width: 33,3%;
+}
+.footer-contact h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.footer-content{
+    width: 200px;
+    margin: auto;
+    padding: 7px;
+}
+.footer-content ul{
+    text-align: center;
+}
+.list{
+    padding: 0%;
+}
+.list li{
+    width: auto;
+    text-align: center;
+    list-style-type:none;
+    padding: 7px;
+    position: relative;
+}
+.social-icons li::before{
+    content:"";
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 5opx;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background: #30e7f1;
+    transition-duration: +5s;
+}
+.social-icons li:hover::before{
+    width: 50px;
+}
+.social-icons{
+    text-align: center;
+    padding: 0%;
+}
+.social-icons li{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+.social-icons i{
+    color: black;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #f18930;
+}
+.social-icons i:hover{
+    color: #305df1;
+}
+.bootom-bar{
+    background: #30e7f1;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 5opx;
+}
+.bootom-bar p{
+    color: #343434;
+    margin: 0;
+    font-size: 16px;
+    padding: 7px;
+}
+.hj img {
+      width: 100%;
+      
+
+}
